@@ -4,27 +4,28 @@
 
 ### Prerequisites
 
-- Install [Node.js] latest which includes [Node Package Manager][npm]
+- [Node.js] which includes [Node Package Manager][npm]
 - I use node version 14.17.0 for this project
+- Angular CLI globally installed
 
-### Setting up the project on your local
+### How to run the project on your local
 
-Install the Angular CLI globally:
-
-```
-npm install -g @angular/cli
-```
+Open the project folder and do the following:
 
 Install node packages:
 
 ```
-cd [PROJECT NAME]
 npm install
 ```
 
 Run the application:
 
 ```
-cd [PROJECT NAME]
 ng serve
+```
+
+or 
+
+```
+npm run start
 ```
