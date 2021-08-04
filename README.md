@@ -4,9 +4,10 @@
 
 ### Prerequisites
 
-- Install [Node.js] which includes [Node Package Manager][npm]
+- Install [Node.js] latest which includes [Node Package Manager][npm]
+- I use node version 14.17.0 for this project
 
-### Setting Up a Project
+### Setting up the project on your local
 
 Install the Angular CLI globally:
 
