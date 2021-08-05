@@ -1,7 +1,7 @@
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, of, throwError } from 'rxjs';
-import { PasswordStrength, Password } from '../models/password-strength.model';
+import { Password } from '../models/password-strength.model';
 import { catchError } from 'rxjs/operators';
 
 @Injectable({
@@ -28,7 +28,7 @@ export class PasswordStrengthService {
             )
     }
 
-    // Handle Errors 
+    // Handle errors 
     error(error: HttpErrorResponse) {
         let errorMessage = '';
         if (error.error instanceof ErrorEvent) {
